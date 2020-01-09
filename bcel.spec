@@ -1,6 +1,6 @@
 Name:           bcel
 Version:        5.2
-Release:        17%{?dist}
+Release:        18%{?dist}
 Epoch:          0
 Summary:        Byte Code Engineering Library
 License:        ASL 2.0
@@ -58,6 +58,9 @@ cp -p %{SOURCE1} pom.xml
 %doc LICENSE.txt NOTICE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 05.2-18
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:5.2-17
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
